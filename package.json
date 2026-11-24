@@ -1,0 +1,14 @@
+{
+  "name": "inference-sampling-rng-state-validator",
+  "version": "1.0.0",
+  "description": "Deterministic sampling replay validator for inference RNG state, batching, beam branches, merges and retries",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "replay": "node bin/replay.js"
+  },
+  "license": "MIT"
+}
